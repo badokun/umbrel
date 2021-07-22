@@ -3,7 +3,7 @@ services:
   netdata:
     image: netdata/netdata
     container_name: netdata
-    hostname: umbrel-node.seijo # set to fqdn of host
+    hostname: umbrel-node.local
     ports:
       - 19999:19999
     environment:
